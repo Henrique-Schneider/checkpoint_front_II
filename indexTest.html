@@ -20,6 +20,9 @@
     />
   </head>
   <body>
+    <div class="main-container">
+      <!-- formulario -->
+
     <div class="container">
       <div class="header">
         <h2>Criar um Card</h2>
@@ -50,38 +53,22 @@
         </div>
         <button id="botao" type="submit">Enviar</button>
       </form>
-      <hr>
-      <div class="header">
-        <h2>Criar um Card</h2>
-      </div>
-      <form id="form" class="from">
-        <div class="form-control">
-          <label for="titulo">Titulo</label>
-          <input type="text" id="titulo" placeholder="Digite o nome do titulo..."/>
-          <i class="fas fa-exclamation-circle"></i>
-          <i class="fas fa-check-circle"></i>
-          <small>Mensagem de erro</small>
-        </div>
-
-        <div class="form-control error">
-          <label for="Descrição">Descrição</label>
-          <input type="text" id="Descrição" placeholder="Descrição"/>
-          <i class="fas fa-exclamation-circle"></i>
-          <i class="fas fa-check-circle"></i>
-          <small>Mensagem de erro</small>
-        </div>
-
-        <div class="form-control success">
-          <label for="urlImage">URL</label>
-          <input type="text" id="urlImage" placeholder="Cole a URL da imagem aqui..."/>
-          <i class="fas fa-exclamation-circle"></i>
-          <i class="fas fa-check-circle"></i>
-          <small>Mensagem de erro</small>
-        </div>
-        <button id="botao" type="submit">Enviar</button>
-      </form>
     </div>
-
+<!-- fim do formulario -->
+<!-- card -->
+<div class="card-deck">
+  <div class="card">
+    <h5 class="card-title">Card title</h5>
+    <img class="card-img" src="./farol-da-barra-interna-post.jpg" alt="Card image cap">
+    <div class="card-body">
+      
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  
+</div>
+  <!-- card fim-->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
       integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
