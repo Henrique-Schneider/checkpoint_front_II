@@ -1,5 +1,5 @@
-let dGaleria = document.getElementById("galeria")
 let form = document.querySelector("form")
+
 
 
 
